@@ -1,0 +1,46 @@
+#menu{width:100%;height:70px;box-shadow:2px 2px 15px rgba(0,0,0,0.3);background:#fff;position:relative;position:absolute;z-index:1;}
+@media screen and (max-width:1024px) {
+	#menu{padding:0 22px 0 0;}
+}
+@media screen and (max-width:812px) {
+	#menu{height:50px;padding:0 12px;}
+}
+#menu .mobile{float:left;position:relative;display:none;}
+@media screen and (max-width:812px) {
+	#menu .mobile{display:block;}
+}
+#menu .mobile .panel{width:175px;padding:10px 20px;background:#fff;box-shadow:8px 8px 15px rgba(0,0,0,0.3);position:absolute;top:69px;left:0;display:none;}
+@media screen and (max-width:812px) {
+	#menu .mobile .panel{top:49px;}
+}
+#menu .mobile nav li{border-bottom:1px solid #feead8;}
+#menu .mobile nav li:last-child{border:none;}
+#menu .mobile nav a{width:100%;display:inline-block;margin:5px 0;padding:5px 0 5px 15px;text-decoration:none;color:#ef7a1a;border-left:4px solid #ef7a1a;}
+#menu .desk li a{height:70px;padding:27px 44px 0 15px;float:left;color:#004d8f;text-decoration:none;transition: background 0.5s;}
+#menu .desk li a:hover{background:#ef7a1a;color:#fff;}
+@media screen and (max-width:812px) {
+	#menu .desk{display:none;}
+}
+#menu .user{padding:20px 0 0;float:right;font-size:.9rem;line-height:1.15rem;}
+@media screen and (max-width:812px) {
+	#menu .user p{padding-top:0px;display:inline-block;}
+}
+#menu .user p:first-of-type{color:#ef7a1a;}
+@media screen and (max-width:812px) {
+	#menu .user p:first-of-type:after{content:" | ";}
+}
+#menu .user p:last-of-type{color:#666;text-decoration:underline;cursor:pointer;}
+#menu .user p:last-of-type:hover{color:#000;}
+#nav-toggle {position:absolute;left:0;top:24px;}
+@media screen and (max-width:812px) {
+	#nav-toggle{top:13px}
+}
+#nav-toggle {cursor:pointer;padding:10px 35px 16px 0px;}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {cursor: pointer;border-radius: 1px;height: 5px;width: 35px;background:#ef7a1a;position: absolute;display: block;content: '';}
+#nav-toggle span:before {top: -10px; }
+#nav-toggle span:after {bottom: -10px;}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {transition: all 500ms ease-in-out;}
+#nav-toggle.active span {background-color: transparent;}
+#nav-toggle.active span:before, #nav-toggle.active span:after {top: 0;}
+#nav-toggle.active span:before {transform: rotate(45deg);}
+#nav-toggle.active span:after {transform: rotate(-45deg);}

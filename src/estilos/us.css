@@ -1,0 +1,21 @@
+#us{width:100%;float:left;font-size:.9rem;line-height:1.25rem;}
+#us .container{margin-top:80px;padding:0 7px 0;color:#666;background:url(../imagens/woman.jpg) top right no-repeat;}
+@media screen and (max-width:812px) {
+	#us .container{background:none;padding:0 35px;}
+}
+#us .container .content{width:69%;}
+@media screen and (max-width:812px) {
+	#us .container .content{width:100%;}
+}
+#us .container h1{padding-bottom:20px;font-weight:100;color:#004d90;font-size:2rem;}
+#us .container p{margin-bottom:12px;}
+#us .container ul{padding:10px 100px 30px 30px;}
+@media screen and (max-width:812px) {
+	#us .container ul{padding:10px 0 30px;}
+}
+#us .container li{margin-bottom:18px;position:relative;padding-left:40px;}
+#us .container li .ico{height:28px;position:absolute;left:0;}
+#us .container .people{width:19px;background: url(../imagens/sprite.png) 0 -1795px;top:-5px;}
+#us .container .local{width:19px;background: url(../imagens/sprite.png) -45px -1796px;top:-5px;}
+#us .container .target{width:27px;background: url(../imagens/sprite.png) -99px -1796px;top:5px;}
+#us .container .search{width:22px;background: url(../imagens/sprite.png) -154px -1798px;top:5px;}

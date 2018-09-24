@@ -1,0 +1,12 @@
+footer{width:100%;height:95px;float:left;background:#004d8f;color:#fff;}
+footer .container{padding:40px 0 0 45px;}
+@media screen and (max-width:667px) {
+	footer .container{padding:25px 50px 0;}
+	footer .container .line{width:100%;float:left;}
+}
+footer .container p{padding-left:40px;position:relative;}
+footer .container a{color:#fff;}
+footer .container .ico-call{width:28px;height:28px;position:absolute;top:-5px;left:0;float:left;background:url(../imagens/sprite.png) -213px -1800px;}
+@media screen and (max-width:667px) {
+	footer .container .ico-call{top:2px;}
+}
